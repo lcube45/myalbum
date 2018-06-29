@@ -1,0 +1,28 @@
+
+# Album menu items definition
+entity.album.collection:
+  title: 'Album list'
+  route_name: entity.album.collection
+  description: 'List Album entities'
+  parent: system.admin_structure
+  weight: 100
+
+album.admin.structure.settings:
+  title: 'Album settings'
+  description: 'Configure Album entities'
+  route_name: album.settings
+  parent: system.admin_structure
+
+# Artist menu items definition
+entity.artist.collection:
+  title: 'Artist list'
+  route_name: entity.artist.collection
+  description: 'List Artist entities'
+  parent: system.admin_structure
+  weight: 100
+
+artist.admin.structure.settings:
+  title: 'Artist settings'
+  description: 'Configure Artist entities'
+  route_name: artist.settings
+  parent: system.admin_structure

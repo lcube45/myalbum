@@ -1,0 +1,54 @@
+# Album routing definition
+album.settings_tab:
+  route_name: album.settings
+  title: 'Settings'
+  base_route: album.settings
+
+entity.album.canonical:
+  route_name: entity.album.canonical
+  base_route: entity.album.canonical
+  title: 'View'
+
+entity.album.edit_form:
+  route_name: entity.album.edit_form
+  base_route: entity.album.canonical
+  title: 'Edit'
+
+entity.album.version_history:
+  route_name: entity.album.version_history
+  base_route: entity.album.canonical
+  title: 'Revisions'
+
+entity.album.delete_form:
+  route_name:  entity.album.delete_form
+  base_route:  entity.album.canonical
+  title: Delete
+  weight: 10
+
+# Artist routing definition
+artist.settings_tab:
+  route_name: artist.settings
+  title: 'Settings'
+  base_route: artist.settings
+
+entity.artist.canonical:
+  route_name: entity.artist.canonical
+  base_route: entity.artist.canonical
+  title: 'View'
+
+entity.artist.edit_form:
+  route_name: entity.artist.edit_form
+  base_route: entity.artist.canonical
+  title: 'Edit'
+
+entity.artist.version_history:
+  route_name: entity.artist.version_history
+  base_route: entity.artist.canonical
+  title: 'Revisions'
+
+entity.artist.delete_form:
+  route_name:  entity.artist.delete_form
+  base_route:  entity.artist.canonical
+  title: Delete
+  weight: 10
+

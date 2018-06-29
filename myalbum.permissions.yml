@@ -1,0 +1,60 @@
+add album entities:
+  title: 'Create new Album entities'
+
+administer album entities:
+  title: 'Administer Album entities'
+  description: 'Allow to access the administration form to configure Album entities.'
+  restrict access: true
+
+delete album entities:
+  title: 'Delete Album entities'
+
+edit album entities:
+  title: 'Edit Album entities'
+
+view published album entities:
+  title: 'View published Album entities'
+
+view unpublished album entities:
+  title: 'View unpublished Album entities'
+
+view all album revisions:
+  title: 'View all Album revisions'
+
+revert all album revisions:
+  title: 'Revert all Album revisions'
+  description: 'Role requires permission <em>view Album revisions</em> and <em>edit rights</em> for album entities in question or <em>administer album entities</em>.'
+
+delete all album revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Album revisions</em> and <em>delete rights</em> for album entities in question or <em>administer album entities</em>.'
+add artist entities:
+  title: 'Create new Artist entities'
+
+administer artist entities:
+  title: 'Administer Artist entities'
+  description: 'Allow to access the administration form to configure Artist entities.'
+  restrict access: true
+
+delete artist entities:
+  title: 'Delete Artist entities'
+
+edit artist entities:
+  title: 'Edit Artist entities'
+
+view published artist entities:
+  title: 'View published Artist entities'
+
+view unpublished artist entities:
+  title: 'View unpublished Artist entities'
+
+view all artist revisions:
+  title: 'View all Artist revisions'
+
+revert all artist revisions:
+  title: 'Revert all Artist revisions'
+  description: 'Role requires permission <em>view Artist revisions</em> and <em>edit rights</em> for artist entities in question or <em>administer artist entities</em>.'
+
+delete all artist revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Artist revisions</em> and <em>delete rights</em> for artist entities in question or <em>administer artist entities</em>.'
